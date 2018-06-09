@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<head>
+<meta charset=utf-8>
+<meta name="description" content="">	
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="http://www.dstello.cl/">
+<link rel="shortlink" href="http://www.dstello.cl/">
+<title>Dstello _Ilumina tus Ideas</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="clearfix site-header" role="banner">	
+	<div class="container centered">
+		<div class="col-md-10 col-lg-10 col-sm-10 site-branding">
+			<h1 class="site-title">
+				<a href="https://www.dstello.cl" rel="home">Dstello</a>
+			</h1>
+			<h6 class="site-description">Ilumina tus Ideas</h6>
+		</div>
+	</div>
+
+	<nav class="main-navigation col-md-12 col-sm-12 col-lg-12" role="navigation">
+		<div class="menu container-fluid centered">
+			<ul class="menu">
+				<li class="menu-item">
+					<a href="https://www.dstello.cl/">Home</a>
+				</li>
+				<li class="menu-item">
+					<a href="https://www.dstello.cl/my-blog-page/">Blog</a>
+				</li>
+				<li class="menu-item">
+					<a href="https://www.dstello.cl/tienda/">Tienda</a>
+				</li>
+				<li class="nav-cart">
+					<i class="fa fa-shopping-cart">
+						<a href="https://www.dstello.cl/carrito/" class="cart-contents" title="Ver el carrito">0 items</a>
+					</i>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+</header>	
+<div class="container-fluid">
+	<div class="row">
+		<div class="text-center titulo">
+			<h1>Calcule su ahorro LED</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-sm-12 col-md-3 col-lg-3 table-responsive"><!--tabla 1-->
+				<table class="table"  border="0" cellspacing="0" cellpadding="0"><!--tabla 1-->
+					<tr align="left" valign="top">
+						<td width="" bgcolor="#F6F6F5" style="padding:5px;">
+							<div style="font-family:Arial; font-size:20px; color:#000; font-weight:bold; margin-bottom:10px;">Ampolletas:</div>
+							<table border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td style="font-family:Arial; font-size:20px; color:#000; font-weight:bold; padding-right:5px;">Watts actuales:</td>
+									<td><input type="text" id="iWatts1" name="iWatts1" maxlength="3" value="75" style="width:40px; font-size:16px; font-weight:bold; padding-right:5px; margin-left: 50px;"> <br>
+										<td colspan="2" style="font-family:Arial; font-size:12px; color:#000000; font-weight:bold; padding-top:5px;">(Consumo ampolleta normal)</td>
+									</td>
+
+								</tr>
+
+								<tr>
+									<td style="font-family:Arial; font-size:20px; color:#000; font-weight:bold; padding-right:5px;">Watts en LED:</td>
+									<td><input type="text" id="iWatts2" name="iWatts2" maxlength="3" value="9" style="width:40px; font-size:16px; font-weight:bold; padding-right:5px; margin-left: 50px;">
+									</td>
+									<td colspan="2" style="font-family:Arial; font-size:12px; color:#000000; font-weight:bold; padding-top:5px;">(Consumo ampolleta LED)</td>
+								</tr>
+
+						 </table>
+						</td>
+
+					</tr>
+				</table><!--tabla 1-->			
+		</div><!--tabla 1-->
+		<td valign="middle"><i class="fas fa-arrow-right"></i></td>
+		<div class="col-sm-12 col-md-3 col-lg-3 table-responsive"><!--tabla 2-->
+				<table class="table"  border="0" cellspacing="0" cellpadding="0"><!--tabla 1-->
+					<td width="190" bgcolor="#F6F6F5" style="padding:5px;">
+        		<div style="font-family:Arial; font-size:20px; color:#000; font-weight:bold; margin-bottom:10px;">Datos:</div>
+       			 <table border="0" cellspacing="0" cellpadding="0">
+          		<tr>
+            		<td style="font-family:Arial; font-size:12px; color:#000000; font-weight:bold; padding-right:5px;">Cantidad de luces:</td>
+           			 <td><input type="text" id="iCantLuces" name="iCantLuces" value="10" style="width:65px; font-weight:bold; padding-right:5px; margin-left: 50px;"></td>
+          		</tr>
+         
+          	<tr>
+            	<td style="font-family:Arial; font-size:12px; color:#000000; font-weight:bold; padding-right:5px;">Uso aprox. al día:</td>
+		            <td>
+		              <select id="cbUso" name="cbUso" style="width:65px; font-weight:bold; padding-right:5px; margin-left: 50px;">
+		                <option value="0">0 hrs.</option>
+		                <option value="2">2 hrs.</option>
+		                <option value="4">4 hrs.</option>
+		                <option value="6">6 hrs.</option>
+		                <option value="8" selected>8 hrs.</option>
+		                <option value="10">10 hrs.</option>
+		                <option value="12">12 hrs.</option>
+		                <option value="14">14 hrs.</option>
+		                <option value="16">16 hrs.</option>
+		                <option value="18">18 hrs.</option>
+		                <option value="20">20 hrs.</option>
+		                <option value="22">22 hrs.</option>
+		                <option value="24">24 hrs.</option>
+		              </select>                 
+		            </td>
+          	</tr>       
+          <tr>
+            <td style="font-family:Arial; font-size:12px; color:#000000; font-weight:bold; padding-right:5px;">Valor Kw/hr: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$<br>(Valor ref. Stgo.) </td>
+            <td><input type="text" id="iKwhr" name="iKwhr" value="112" style="width:65px; font-weight:bold; padding-right:5px; margin-left: 50px;"></td>
+          </tr>
+        </table>      
+      </td>	
+		</table><!--tabla 2-->
+	</div><!--tabla 2-->
+			<td valign="middle"><i class="fas fa-arrow-right"></i></td>
+<div class="col-sm-12 col-md-3 col-lg-3 table-responsive"><!--tabla 2-->
+				<table class="table"  border="0" cellspacing="0" cellpadding="0"><!--tabla 1-->
+			  <td width="220" bgcolor="#F6F6F5" style="padding:5px;">
+        <div style="font-family:Arial; font-size:20px; color:#000; font-weight:bold; margin-bottom:10px;">Resultado:</div>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td style="font-family:Arial; font-size:16px; color:#000; font-weight:bold; padding-right:10px;">Ahorro por mes:</td>
+            <td align="right" style="font-family:Arial; font-size:16px; color:#000000; font-weight:bold; padding-right:5px; margin-left: 50px;">$<label id="lblAhorroMes"></label></td>
+          </tr>
+        
+          <tr>
+            <td style="font-family:Arial; font-size:16px; color:#000; font-weight:bold; padding-right:10px;">Ahorro por año:</td>
+            <td align="right" style="font-family:Arial; font-size:16px; color:#000000; font-weight:bold; padding-right:5px; margin-left: 50px;">$<label id="lblAhorroAno"></label></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="font-family:Arial; font-size:16px; color:#000000; padding-top:5px; padding-right:5px; margin-left: 50px; text-align: center;">(Aprox. <b><label id="lblAhorroPor"></label>%</b> de ahorro)</td>
+          </tr>
+        </table>
+      </td>		
+		</table><!--tabla 2-->
+	</div><!--tabla 2-->
+
+	</div><!--row-->
+</div><!--container-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script>
+  function fCalculo(){
+  var iCantLuces = $('#iCantLuces').val();
+  if(!Number(iCantLuces)){iCantLuces=0}
+  
+  var iKwhr = $('#iKwhr').val();
+  if(!Number(iKwhr)){iKwhr=0}
+  
+  var iUso = $('#cbUso').val();
+  
+  var iWatts1 = $('#iWatts1').val();
+  if(!Number(iWatts1)){iWatts1=0}
+  
+  var iWatts2 = $('#iWatts2').val();
+  if(!Number(iWatts2)){iWatts2=0}
+  
+  var iGastoDia1 = iWatts1*iCantLuces*iKwhr*iUso/1000;
+  var iGastoDia2 = iWatts2*iCantLuces*iKwhr*iUso/1000;
+  
+// alert(iGastoDia1 + ' | ' + iGastoDia2);
+  
+  var iGastoMes1 = iGastoDia1*30;
+  var iGastoMes2 = iGastoDia2*30;
+  
+//alert(iGastoMes1 + ' | ' + iGastoMes2);
+  
+  var iGastoAno1 = iGastoMes1*12;
+  var iGastoAno2 = iGastoMes2*12;
+  
+// alert(iGastoAno1 + ' | ' + iGastoAno2);
+  
+  var iAhorroMes = (iGastoMes1-iGastoMes2);
+  var iAhorroAno = (iGastoAno1-iGastoAno2);
+  var iAhorroPor = Math.round(100-(iWatts2*100/iWatts1));
+
+//alert(iGastoAno1+'*100/'+iAhorroAno);
+  
+  $('#lblAhorroMes').html(iAhorroMes); 
+  $('#lblAhorroAno').html(iAhorroAno); 
+  $('#lblAhorroPor').html(iAhorroPor); 
+}
+
+$(document).ready(function(){
+  $("select").change(function(){fCalculo()});
+  $("input[type='text']").keyup(function(){fCalculo()});
+  fCalculo();
+});
+
+</script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
